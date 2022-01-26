@@ -1675,6 +1675,7 @@ int find_gadget_offset(char* search_chars){
           }
           offset++;
         }
+        current_found_i = 0;
       }
     } else {
       current_found_i = 0;
